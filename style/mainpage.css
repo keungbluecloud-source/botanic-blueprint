@@ -1,0 +1,148 @@
+.zones{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.title{
+    margin: 15px;
+}
+
+.zone{
+    font-size: 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 15px;
+    transition:  transform 0.25s;
+}
+
+.zone:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 8px 16px rgba(167, 167, 45, 0.533);
+}
+
+.header{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+body{
+    background-image: -webkit-image-set(url("../data/backgroundpic.jpg"));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Montserrat";
+    background-size: cover;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.promote{
+    font-size: 20px;
+    margin: 10px 20px 10px 5px;
+
+}
+
+.browse-button{
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.zipcode-input-button{
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    border: #4CAF50;
+}
+
+.zipcode-input-button:hover{
+    background-color: rgb(111, 138, 97);
+}
+
+.zipcode-input-bar{
+    border: solid #949694 1px;
+    height: 30px;
+    margin: 20px 10px 0px 20px;
+    background-color: rgba(242, 243, 241, 0.5);
+}
+
+.light-requirement{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  
+}
+
+.light-requirement-shade{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+.button-clicked{
+    border: 2px solid black;
+    white-space: nowrap;
+}
+
+.light-requirement-part-shade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, grey, orange);
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.light-requirement-full-sun{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.zipcode-search-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zone-search-result{
+    padding: 10px;
+}
+
+.zones-selection-max{
+    margin-bottom: 5px;
+}
